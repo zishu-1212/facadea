@@ -1,0 +1,301 @@
+body{
+  background-color: #492300;
+}
+
+.App {
+ background-image: url("./Compounent/assets/baaa.png");
+  background-size: 100% 100%; /* Image will resize to fit content */
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 40px 20px; /* Optional: space around content */
+  max-width: 1500px; /* Optional: to center and contain width */
+  margin: auto; 
+  /* height: 500vh; */
+} 
+.baner{
+   background-image: url("./Compounent/assets/menu_header\ 1.png");
+   background-size: 100% 100%;           /* image screen ke size ke mutabiq fit hogi */
+   background-position: center;      /* image center mein align hogi */
+   background-repeat: no-repeat; 
+   /* min-height: 9vh;  */
+   padding: 17px 2px;
+   width:50%;
+  }
+.paper{
+   background-image: url("./Compounent/assets/Paper18.png");
+   background-size: 100% 100%;           /* image screen ke size ke mutabiq fit hogi */
+   background-position: center;      /* image center mein align hogi */
+   background-repeat: no-repeat; 
+   min-height: 60vh; 
+  }
+.paper2{
+   background-image: url("./Compounent/assets/Paper13.png");
+   background-size: 100% 100%;           /* image screen ke size ke mutabiq fit hogi */
+   background-position: center;      /* image center mein align hogi */
+   background-repeat: no-repeat; 
+   /* min-height: 60vh;  */
+    padding: 80px 2px;
+   
+  }
+.paper3{
+   background-image: url("./Compounent/assets/Paper17.png");
+   background-size: 100% 100%;           /* image screen ke size ke mutabiq fit hogi */
+   background-position: center;      /* image center mein align hogi */
+   background-repeat: no-repeat; 
+   /* min-height: 40vh;  */
+   margin-top: 10%;
+   padding: 80px 2px;
+  }
+.model{
+ 
+  }
+.card{
+   background-image: url("./Compounent/assets/ggg.png");
+   background-size: 100% 100%;           /* image screen ke size ke mutabiq fit hogi */
+   background-position: center;      /* image center mein align hogi */
+   background-repeat: no-repeat; 
+   /* min-height: 60vh;  */
+   background-color: transparent;
+   padding:35px 29px;
+   border: none;
+  }
+  .pading{
+    padding-top: 6rem;
+  }
+  .buttonc{
+  background-color: #32200D;
+  color: white;
+
+}
+  .buttonc:hover{
+  background-color: #32200D;
+}
+.letter{
+  color:#825E30;
+  font-weight: 500;
+}
+.borderfoter{
+  border: 4px solid #895B0D;
+  border-radius: 30px;
+}
+.widtha{
+  width: 80%;
+  margin: auto !important;
+}
+.text-dark{
+  color: #32200D;
+}
+.card-body{
+  background-color: #E8CB9D;
+  padding: 3px;
+  /* min-height: 30vh; */
+}
+/* Reduce logo size on small screens */
+.fss{
+  font-size: 16px;
+}
+.modal-content {
+    position: relative;
+    display: flex
+;border: none;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: transparent;
+      background-image: url("./Compounent/assets/Group (5).png");
+   background-size: 100% 100%;           /* image screen ke size ke mutabiq fit hogi */
+   background-position: center;      /* image center mein align hogi */
+   background-repeat: no-repeat; 
+   padding: 12%;
+
+ 
+}
+.font{
+   font-family: "Alegreya SC", serif;
+   font-weight: 500;
+}
+.custom-input,
+.custom-select {
+  background-color: #fcd48f; /* match background */
+  border: 2px solid #4b2e0d; /* dark brown border */
+  border-radius: 10px;
+  color: #4b2e0d;
+  font-weight: 500;
+  padding: 10px 12px;
+}
+
+.custom-input::placeholder {
+  color: #b5854f;
+}
+
+.custom-select:focus,
+.custom-input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #4b2e0d;
+  background-color: #fcd48f;
+}
+/* App.css or your custom CSS file */
+.swiper-button-next,
+.swiper-button-prev {
+  color: black; /* or white if your image is dark */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+   /* display: none; */
+}
+
+.swiper-button-next {
+  right: 550px;
+  /* display: none !important; */
+}
+
+.swiper-button-prev {
+  left: 10px;
+    /* display: none !important; */
+}
+.gada{
+  width: 54.64px;
+  height: 77.62px;
+}
+.gap5{
+  gap: 47.78px;
+}
+.padd{
+  padding-bottom: 10%;
+}
+   .vintage-button {
+    background-color: #32200D;
+    color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px double #5b3a1e;
+    box-shadow: inset 0 0 0 0px #8b5e2e, 0 0 0 2px #3b2a16;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+.bg-darki{
+  background-color: #32200D !important;
+}
+  .vintage-button::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 1%;
+    right: 2px;
+    bottom: 2px;
+    border: 1px solid #8b5e2e;
+    border-radius: 3px;
+   
+}
+  
+   .vintage-button2 {
+    background-color: #ddbf8f;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    /* border: 1px double #3b2a16; */
+    box-shadow: inset 0 0 0 1px #8b5e2e, 0 0 0 .5px #886946;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+   .vintage-button2:hover {
+    background-color: #ddbf8f;
+  
+}
+
+  .vintage-button2::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    right: 2px;
+    bottom: 3px;
+    /* border: 1px solid #3b2a16; */
+     box-shadow: inset 0 0 0 1px #8b5e2e, 0 0 0 2px #ba9a77;
+    border-radius: 3px;
+   
+}
+.footimg{
+  width: 119.4px;
+  height: 37.59px;
+}
+.headtitle{
+  font-size:34px;
+  /* letter-spacing:px; */
+  line-height: 135%
+}
+.textcontent{
+  font-size:18px;
+  font-weight: 500;
+}
+.wtt{
+  width: 32px;
+  height: 32px;
+}
+  .imggw{
+  width: 70%;
+}
+@media (max-width: 756px) {
+  .navbar-brand img {
+    max-height: 46px !important;
+  }
+  .textwrap{
+  overflow-x: scroll;
+}
+  .textcontent{
+  font-size:14px;
+  font-weight: 500;
+}
+ .pading{
+    padding-top: 0rem;
+  }
+  .headtitle{
+  font-size:20px;
+  line-height: 105%
+}
+  .fss{
+  font-size: 12px;
+}
+  .widtt{
+  width: 149%;
+}
+  .imggw{
+  width: 100%;
+}
+.gada{
+  width: 54.64px;
+  height: 77.62px;
+}
+ .padd{
+  padding-bottom: 30%;
+}
+ .vintage-button2{
+  width: 100%;
+  
+ }
+ .vintage-button{
+  width: 100%;
+
+ }
+ .App {
+ background-image: none;
+background-color: #eec26a;
+border: 15px solid #32200D;
+} 
+}
+@media (max-width: 991px) {
+
+  .baner{
+   background-image:none;
+  padding-left: 12px;
+  }
+}
